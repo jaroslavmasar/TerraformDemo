@@ -3,8 +3,8 @@ provider "okta" {
   base_url  = "oktapreview.com"
 }
 
-resource "okta_network_zone" "test32" {
-  name     = "test32"
+resource "okta_network_zone" "test33" {
+  name     = "test33"
   type     = "IP"
   gateways = ["1.2.3.4/24", "2.3.4.5-2.3.4.50"]
   proxies  = ["2.2.3.4/24", "3.3.4.5-3.3.4.50"]
